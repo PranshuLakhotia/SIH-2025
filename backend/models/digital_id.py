@@ -4,7 +4,9 @@ from pydantic import BaseModel, Field
 from datetime import datetime
 from typing import Optional
 from database.connection import Base
+from dotenv import load_dotenv
 
+load_dotenv()
 
 class BlockchainBlock(Base):
     __tablename__ = "blockchain_blocks"

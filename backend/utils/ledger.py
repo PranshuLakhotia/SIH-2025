@@ -5,7 +5,9 @@ from datetime import datetime, timezone
 from typing import Tuple
 from sqlalchemy.orm import Session
 from models.digital_id import BlockchainBlock
+from dotenv import load_dotenv
 
+load_dotenv()
 
 class Ledger:
     """A simple append-only hash-chained ledger stored in SQL.

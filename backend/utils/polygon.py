@@ -3,7 +3,9 @@ from dataclasses import dataclass
 from typing import Any, Optional
 from web3 import Web3
 from web3.contract import Contract
+from dotenv import load_dotenv
 
+load_dotenv()
 
 @dataclass
 class PolygonConfig:
