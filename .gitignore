@@ -11,5 +11,12 @@ frontend/.next/
 .env.local
 frontend/.env.local
 
-# Ignore SQLite DB file
+.venv
+
+.blockchain/artifacts
+.blockchain/cache
+.blockchain/typechain-types
+.blockchain/.env
+=======
+
 *.db
