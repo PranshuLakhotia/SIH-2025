@@ -13,8 +13,10 @@ frontend/.env.local
 
 .venv
 
-# Block
 .blockchain/artifacts
 .blockchain/cache
 .blockchain/typechain-types
 .blockchain/.env
+=======
+
+*.db
